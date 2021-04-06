@@ -1,6 +1,6 @@
 <template>
   <nav id="nav">
-    <p class="logo">The Vue School Travel App</p>
+    <p class="logo">The Travel App</p>
     <ul class="nav-links">
       <li class="links">
         <router-link to="/">Home</router-link>
@@ -40,6 +40,12 @@ export default {
 <style  scoped>
 #nav {
   display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid grey;
+  z-index: 1;
 }
 
 #nav a {
